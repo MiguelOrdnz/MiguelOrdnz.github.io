@@ -75,10 +75,27 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .profile img {
   margin: 15px auto;
-  display: block;
   width: 120px;
+  display: block;
   border: 8px solid #2c2f3f;
+
+  /* 
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto; 
+  */
+
 }
+
+/* #header .img-cropper{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 8px solid #2c2f3f;
+} */
 
 #header .profile h1 {
   font-size: 24px;
@@ -471,6 +488,18 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+}
+
+.resume .resume-item img{
+  width: auto;
+  height: 100px;
+  padding: 10px;
+  display: block;
+  /* -webkit-filter: drop-shadow(1px 1px 0 #6995c7) */
+                  /* drop-shadow(-1px -1px 0 #6995c7); */
+  /* filter: drop-shadow(1px 1px 0 #6995c7)  */
+          /* drop-shadow(-1px -1px 0 #6995c7); */
+
 }
 
 .resume .resume-item:last-child {
